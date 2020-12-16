@@ -1,0 +1,21 @@
+﻿{% extends "app/layout.html" %}
+
+{% block content %}
+<!-♕ -->
+<div class="jumbotron">
+    <h2>{{ title }}.</h2>
+    <h3>{{ message }}</h3>
+
+    <address>
+        Псковская область, город Псков<br />
+        улица Розы Люксембург 6А<br />
+        <abbr title="Телефон">P:</abbr>
+        +89009999999
+    </address>
+
+    <address>
+        <strong>Поддержка:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
+        <strong>Маркетинг:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
+    </address>
+</div>
+{% endblock %}
